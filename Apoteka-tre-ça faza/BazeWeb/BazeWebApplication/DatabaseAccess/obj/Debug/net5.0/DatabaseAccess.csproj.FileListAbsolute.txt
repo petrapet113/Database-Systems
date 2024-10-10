@@ -1,0 +1,12 @@
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.AssemblyInfoInputs.cache
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.AssemblyInfo.cs
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.csproj.CoreCompileInputs.cache
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\bin\Debug\net5.0\DatabaseAccess.deps.json
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\bin\Debug\net5.0\DatabaseAccess.dll
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\bin\Debug\net5.0\DatabaseAccess.pdb
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.csproj.AssemblyReference.cache
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.dll
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\ref\DatabaseAccess.dll
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\obj\Debug\net5.0\DatabaseAccess.pdb
+D:\F-SESTI semestar\BazeWeb\BazeWebApplication\DatabaseAccess\bin\Debug\net5.0\ref\DatabaseAccess.dll

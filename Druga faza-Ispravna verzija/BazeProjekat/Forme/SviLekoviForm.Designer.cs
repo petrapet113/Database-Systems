@@ -1,0 +1,163 @@
+﻿
+namespace BazeProjekat.Forme
+{
+    partial class SviLekoviForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.listViewLekovi = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button1 = new System.Windows.Forms.Button();
+            this.numericUpDownKolicina = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKolicina)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // listViewLekovi
+            // 
+            this.listViewLekovi.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7});
+            this.listViewLekovi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listViewLekovi.HideSelection = false;
+            this.listViewLekovi.Location = new System.Drawing.Point(33, 12);
+            this.listViewLekovi.Name = "listViewLekovi";
+            this.listViewLekovi.Size = new System.Drawing.Size(726, 343);
+            this.listViewLekovi.TabIndex = 6;
+            this.listViewLekovi.UseCompatibleStateImageBehavior = false;
+            this.listViewLekovi.View = System.Windows.Forms.View.Details;
+            this.listViewLekovi.SelectedIndexChanged += new System.EventHandler(this.listViewLekovi_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Id";
+            this.columnHeader1.Width = 33;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Komercijalni naziv";
+            this.columnHeader2.Width = 123;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Hemijski naziv";
+            this.columnHeader3.Width = 102;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Cena";
+            this.columnHeader4.Width = 53;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Doza za decu";
+            this.columnHeader5.Width = 94;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Doza za odrasle";
+            this.columnHeader6.Width = 111;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Doza za trudnice";
+            this.columnHeader7.Width = 138;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(316, 412);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 45);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Dodaj lek";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // numericUpDownKolicina
+            // 
+            this.numericUpDownKolicina.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownKolicina.Location = new System.Drawing.Point(316, 369);
+            this.numericUpDownKolicina.Name = "numericUpDownKolicina";
+            this.numericUpDownKolicina.Size = new System.Drawing.Size(120, 27);
+            this.numericUpDownKolicina.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(222, 371);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 20);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Količina:";
+            // 
+            // SviLekoviForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
+            this.ClientSize = new System.Drawing.Size(807, 480);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.numericUpDownKolicina);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listViewLekovi);
+            this.Name = "SviLekoviForm";
+            this.Text = "SviLekovi";
+            this.Load += new System.EventHandler(this.SviLekoviForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKolicina)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ListView listViewLekovi;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown numericUpDownKolicina;
+        private System.Windows.Forms.Label label2;
+    }
+}
